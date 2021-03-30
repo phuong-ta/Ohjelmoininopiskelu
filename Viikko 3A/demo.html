@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get the sum of the rounded numbers in the array.</p>
+<button onclick="myFunction()">Try it</button>
+
+<p>Sum of numbers in array: <span id="demo"></span></p>
+
+<script>
+  var numbers = [];
+  
+  function getSum(total, num) {
+    return total + Math.round(num);
+  }
+  function myFunction(item) {
+    for (let index = 0; index < 5; index++) {
+       numbers.push(index);
+      console.log(numbers);
+      
+    }
+    document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
+  }
+  </script>
+
+</body>
+</html>

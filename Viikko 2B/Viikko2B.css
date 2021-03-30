@@ -1,0 +1,34 @@
+.tehtävät{
+    height: auto;
+    display:inline-flex;
+    margin-top: 10px;
+}
+.te1{
+    background-color: chocolate;
+    margin-right: 5px;
+}
+
+.te2{
+    background-color: tomato;
+    margin-right: 5px;
+}
+.te3{
+    background-color: wheat;
+    margin-right: 5px;
+}
+.te4{
+    background-color:yellowgreen;
+    margin-right: 5px;
+}
+.te5{
+    background-color:salmon;
+    margin-right: 5px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+button{
+    margin-bottom: 10px;
+}

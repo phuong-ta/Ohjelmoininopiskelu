@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Viikko2.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="col">
+            <div class="tehtävät">
+                <div class="te1">
+                    <h2> Tehtävä 1</h2>
+                    <p > Tee ohjelma, joka pyytää käyttäjältä kolmea numeroa ja laittaa ne järjestykseen </p>
+                    <span> Anna 1. numero:</span><input type="number" id="te1a"><br>
+                    <span> Anna 2. numero:</span><input type="number" id="te1b"><br>
+                    <span> Anna 3. numero:</span><input type="number" id="te1c"> <br>
+                    <button onclick="tehtävä1()">Click me</button>
+                    <p id="tulos1"></p>
+
+                </div>
+
+
+                <div class="te2">
+                    <h2> Tehtävä 2</h2>
+                    <p > Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman </p>
+                    <span> Anna 1. numero:</span><input type="number" id="te2a"><br>
+                    <span> Anna 2. numero:</span><input type="number" id="te2b"><br>
+                    <span> Anna 3. numero:</span><input type="number" id="te2c"> <br>
+                    <span> Anna 4. numero:</span><input type="number" id="te2d"> <br>
+                    <span> Anna 5. numero:</span><input type="number" id="te2e"> <br>
+                    <button onclick="tehtävä2()">Etsi suurin numero</button>
+                    <p id="tulos2"></p>
+
+                </div>
+
+                <div class="te3">
+                    <h2>Tehtävä 3</h2>
+                    <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
+                    <span> Anna luku:</span><input type="number" id="te3a"><br>
+                    <button onclick="tehtävä3()">Tarkista</button>
+                    <p id="tulos3"></p>
+
+                </div>
+
+                <div class="te4">
+                    <h2>Tehtävä 4</h2>
+                    <p>Pyydä käyttäjältä ikä</p>
+                    <span> Anna luku:</span><input type="number" id="te4"><br>
+                    <button onclick="tehtävä4()">Tarkista</button>
+                    <p id="tulos4"></p>
+
+                </div>
+
+                <div class="te5">
+                    <h2>Tehtävä 5</h2>
+                    <p>Hello world in different languages</p>
+                    <select id="te5">
+                        <option value="Englanti"> Englanti</option>
+                        <option value="Espanja"> Espanja</option>
+                        <option value="Ruotsi"> Ruotsi</option>
+                    </select>
+                    <button onclick="tehtävä5()">Kääntä</button>
+                    <p id="tulos5"></p>
+
+                </div>
+
+
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+<script src="Viikko2.js"></script>
+</html>
